@@ -169,7 +169,7 @@ export default function SocialProofSection() {
           ))}
         </div>        
         {/* Trust Badges */}
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex flex-wrap justify-center gap-6 mb-12">
           <div className="bg-white dark:bg-bg-dark-secondary border border-gray-200 dark:border-bg-dark-tertiary rounded-xl px-6 py-4 flex items-center gap-3 shadow-md hover:shadow-lg transition-shadow duration-300">
             <Shield className="text-accent-green" size={20} />
             <div>
@@ -192,6 +192,19 @@ export default function SocialProofSection() {
               <span className="text-text-tertiary ml-2">&quot;Your data is never shared&quot;</span>
             </div>
           </div>
+        </div>
+
+        {/* Featured Badge */}
+        <div className="flex justify-center">
+          <a href="https://orynth.dev/projects/agentsgang" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-transform duration-300 inline-block">
+            <Image 
+              src="https://orynth.dev/api/badge/agentsgang?theme=light&style=default" 
+              alt="Featured on Orynth" 
+              width={260} 
+              height={80}
+              priority={false}
+            />
+          </a>
         </div>
       </div>
     </section>
