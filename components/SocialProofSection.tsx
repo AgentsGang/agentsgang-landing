@@ -197,12 +197,11 @@ export default function SocialProofSection() {
         {/* Featured Badge */}
         <div className="flex justify-center">
           <a href="https://orynth.dev/projects/agentsgang" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-transform duration-300 inline-block">
-            <Image 
-              src="https://orynth.dev/api/badge/agentsgang?theme=light&style=default" 
+            <img 
+              src="https://orynth.dev/api/badge/agentsgang?theme=dark&style=default" 
               alt="Featured on Orynth" 
               width={260} 
               height={80}
-              priority={false}
             />
           </a>
         </div>
